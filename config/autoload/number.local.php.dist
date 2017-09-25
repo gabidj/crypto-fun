@@ -1,0 +1,7 @@
+<?php
+
+$rootDir = dirname(dirname());
+
+return [
+    'storage_dir' => $rootDir . '/path/to/algo/storage/'
+];
