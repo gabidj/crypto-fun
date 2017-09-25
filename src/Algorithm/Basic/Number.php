@@ -63,7 +63,7 @@ class Number implements AlgorithmInterface
     public function __invoke($a)
     {
         $this->storage[] = $a;
-        if ($a == 1) {
+        if ($a == 1 || $a == 0) {
             return $a;
         }
         if ($a % 2 === 0) {
